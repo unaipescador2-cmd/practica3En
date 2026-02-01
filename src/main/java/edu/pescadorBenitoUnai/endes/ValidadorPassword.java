@@ -1,4 +1,4 @@
 package edu.pescadorBenitoUnai.endes;
 
-public class claculadora {
+public class ValidadorPassword {
 }

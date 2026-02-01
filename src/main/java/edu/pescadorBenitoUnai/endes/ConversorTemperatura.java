@@ -1,4 +1,4 @@
 package edu.pescadorBenitoUnai.endes;
 
-public class validadorpassword {
+public class ConversorTemperatura {
 }
