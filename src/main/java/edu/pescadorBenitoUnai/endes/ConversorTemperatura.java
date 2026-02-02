@@ -7,6 +7,22 @@ package edu.pescadorBenitoUnai.endes;
  */
 public class ConversorTemperatura {
     /**
+     * Convierte una temperatura en grados Celsius a grados Fahrenheit.
+     *
+     * <p>Fórmula utilizada:</p>
+     * <pre>
+     * Fahrenheit = (Celsius * 9 / 5) + 32
+     * </pre>
+     *
+     * @param celsius temperatura en grados Celsius
+     * @return temperatura convertida a grados Fahrenheit
+     */
+    public double celsiusAFahrenheit(double celsius) {
+        return (celsius * 9 / 5) + 32;
+    }
+
+
+    /**
      * convierte una temperatura de grados celsius a grados fahrenheit
      *
      * <p>Formula utilizada</p>
@@ -14,7 +30,7 @@ public class ConversorTemperatura {
      *     Fahrenheit = (Celsius * 9/5) + 32
      * </pre>
      *
-     * @param gahrenheit temperatura en grados Fahrenheit
+     * @param fahrenheit temperatura en grados Fahrenheit
      * @return temperatura convertida a grados Celsius
      */
     public double fahrenheitACelsius(double fahrenheit){
