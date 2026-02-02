@@ -32,6 +32,6 @@ public class ConversorTemperaturaTest {
      */
     @Test
     void testFahrenheitACelsius(){
-        assertEquals(32, conversor.fahrenheitACelsius(0));
+        assertEquals(0, conversor.fahrenheitACelsius(32));
     }
 }

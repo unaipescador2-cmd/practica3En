@@ -33,7 +33,7 @@ public class ValidarPasswordTest {
      */
     @Test
     void passwordSinMayuscula(){
-        assertFalse(validador.validar("Password2"));
+        assertFalse(validador.validar("password2"));
     }
 
     /**
@@ -43,7 +43,7 @@ public class ValidarPasswordTest {
      */
     @Test
     void passwordSinNumero(){
-        assertFalse(validador.validar("Password3"));
+        assertFalse(validador.validar("Password"));
     }
 
     /**
@@ -53,7 +53,7 @@ public class ValidarPasswordTest {
      */
      @Test
     void passwordCorta(){
-         assertFalse(validador.validar("Password4"));
+         assertFalse(validador.validar("pass"));
     }
 
     /**

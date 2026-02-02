@@ -21,7 +21,7 @@ public class CalculadoraTest {
      */
     @Test
     void testSumar(){
-        assertEquals(5, calc.sumar(3, 3));
+        assertEquals(5, calc.sumar(3, 2));
     }
     
     /**
@@ -41,7 +41,7 @@ public class CalculadoraTest {
      */
     @Test
     void testMultiplicar (){
-        assertEsquals(6, calc.multiplicar(4, 3));
+        assertEquals(6, calc.multiplicar(2, 3));
     }
 
     /**
